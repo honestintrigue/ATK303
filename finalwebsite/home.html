@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://use.typekit.net/lzo5ush.css">
+
+
+  <title>Brooke Masters ART</title>
+<link href="website.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+  </style>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<h1>Brooke Masters Art</h1>
+
+
+
+<ul class="menuul">
+     <li> <a href="Home">Home</a></li>
+    <li> <a href="Painting.html">Painting</a></li>
+    <li> <a href="Photography.html">Photography</a></li>
+    <li> <a href="Drawings.html">Drawings</a></li>
+    <li> <a href="DigitalArt.html">DigitalArt</a></li>
+    <li> <a href="ContactInfo.html">ContactInfo</a></li>
+  </ul>
+
+  <ul class="aboutme">
+    <p> My name is Brooke Masters, I am getting my bachelor’s degree in creative technologies at Illinois State University.<br>
+    </br> I am a digital and traditional artist; I use Procreate and Photoshop. I develop webpages and have am interested in Game design.</p>
+    </ul>
+
+  <div id="slideshow">
+   <div>
+     <img src="heathermason.jpeg" alt="Heather Mason" width="500" height="500">
+   </div>
+   <div>
+     <img src="thebox.jpeg" alt="The Box" width="500" height="500">
+   </div>
+   <div>
+     <img src="chad.jpeg" alt="Chad" width="500" height="500">
+   </div>
+   <div>
+     <img src="beach.jpeg" alt="The Beach" width="500" height="500">
+   </div>
+   <div>
+     <img src="shirtpainting.jpg" alt="Oil Shirt" width="500" height="500">
+   </div>
+</div>
+
+
+
+
+
+  <script>
+  $("#slideshow > div:gt(0)").hide();
+
+  setInterval(function() {
+    $('#slideshow > div:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#slideshow');
+  }, 3000);
+  </script>
+</body>
+</html>

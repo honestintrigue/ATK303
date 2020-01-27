@@ -1,0 +1,131 @@
+body{
+background-color: black;
+}
+
+
+
+.img{
+border:5px solid black;
+margin:10px;
+}
+
+h1{
+font-family:mono45-headline, monospace;
+font-weight: 500;
+font-style: normal;
+color:black;
+border:2px solid black;
+padding:10px;
+margin:10px;
+float:right;
+font-size:50px;
+text-align:center;
+background-color:#736b63;
+width: 500px;
+}
+
+.menuul{
+font-family:mono45-headline, monospace;
+font-weight: 500;
+font-style: normal;
+/*float:top;*/
+width:200px;
+font-size:30px;
+font-weight:bold;
+padding:0px;
+border:2px solid black;
+text-align:right;
+color:grey;
+clear: both;
+float:right;
+list-style: none;
+}
+
+nav {
+font-family:monospace;
+font-size:25px;
+border:2px solid black;
+/*float:left;*/
+  width:600px;
+margin:auto;
+padding:5px;
+background-color:#736b63;
+}
+
+.contact{
+  font-family:monospace;
+  font-size:25px;
+  border:2px solid white;
+  width:600px;
+  margin:auto;
+  padding:5px;
+  text-align:center;
+  list-style:none;
+  color:white;
+
+}
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    float:left;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+
+}
+
+a {
+color:white;
+}
+
+a:hover {
+color:grey;
+}
+
+.notes {
+Border:2px solid #a3a375;
+padding:5px;
+color:#a3a375;
+display:inline-block;
+margin:5px;
+}
+
+
+.aboutme{
+border: 5px solid white;
+text-align:center;
+font-family: monospace;
+color:white;
+background-color:black;
+float: right;
+width: 500px;
+height:400px;
+font-size: 24px;
+padding: 10px;
+}
+
+.menuul2{
+font-family:mono45-headline, monospace;
+font-weight: 500;
+font-style: normal;
+font-size:30px;
+font-weight:bold;
+padding:0px;
+border:2px solid black;
+text-align:center;
+color:grey;
+clear: both;
+list-style: none;
+
+}

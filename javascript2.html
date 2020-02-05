@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>single page scroller example</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
+  $(function() {
+  $('nav a').bind('click',function(event){
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $($anchor.attr('href')).offset().top - 0
+    }, 1000);
+    event.preventDefault();
+  });
+});
+</script>
+<style>
+  nav {
+    position:fixed;
+    background-color:white;
+    top:0;
+    left:0;
+  }
+
+  nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+
+  nav li{
+    display:inline-block;
+    width:100px;
+    border:2px solid black;
+  }
+  </style>
+</head>
+
+<body>
+  <h1 id="home"> single page scroller example</h1>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#photos">photos</a></li>
+      <li><a href="#videos">videos</a></li>
+    </ul>
+  </nav>
+
+
+
+
+
+  <p>Let's unpack that later put your feelers out, so great plan! let me diarize this, and we can synchronise ourselves at a later timepoint for pull in ten extra bodies to help roll the tortoise anti-pattern hammer out. Time vampire. Good optics
+    hammer out, but a loss a day will keep you focus and dog and pony show. Finance guerrilla marketing, we don't want to boil the ocean you better eat a reality sandwich before you walk back in that boardroom scope creep idea shower pre launch.
+    Staff engagement what about scaling components to a global audience? disband the squad but rehydrate as needed cross-pollination teams were able to drive adoption and awareness.</p>
+
+  <h2 id="photos">photos</h2>
+  <p>Let's unpack that later put your feelers out, so great plan! let me diarize this, and we can synchronise ourselves at a later timepoint for pull in ten extra bodies to help roll the tortoise anti-pattern hammer out. Time vampire. Good optics
+    hammer out, but a loss a day will keep you focus and dog and pony show. Finance guerrilla marketing, we don't want to boil the ocean you better eat a reality sandwich before you walk back in that boardroom scope creep idea shower pre launch.
+    Staff engagement what about scaling components to a global audience? disband the squad but rehydrate as needed cross-pollination teams were able to drive adoption and awareness.</p>
+
+  <h3 id="videos">videos</h3>
+  <p>Let's unpack that later put your feelers out, so great plan! let me diarize this, and we can synchronise ourselves at a later timepoint for pull in ten extra bodies to help roll the tortoise anti-pattern hammer out. Time vampire. Good optics
+    hammer out, but a loss a day will keep you focus and dog and pony show. Finance guerrilla marketing, we don't want to boil the ocean you better eat a reality sandwich before you walk back in that boardroom scope creep idea shower pre launch.
+    Staff engagement what about scaling components to a global audience? disband the squad but rehydrate as needed cross-pollination teams were able to drive adoption and awareness.</p>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SVG Homework</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+  <script>
+    window.onload = function() {
+      var s = Snap("#svgout"); // ID where SVG loads in page
+
+
+      // get layers of SVG
+      var BG = logo.select("#Background");
+      var red = logo.select("#red");
+      var orange = logo.select("#orange");
+      var circle = logo.select("#circle");
+
+      red.animate({
+        opacity: 1,
+        transform: "t0,0"
+      }, 500);
+      orange.animate({
+        opacity: 1,
+        transform: "t0,0,r0"
+      }, 1000);
+      circle.animate({
+        opacity: 1,
+        transform: "s1,0,0"
+      }, 1500);
+
+
+
+      // load SVG and do stuff to it
+      Snap.load("hnlogo.svg", function(logo) {
+        s.append(logo); // append SVG to #svgout
+        circle.hover(function() {
+          cirlce.animate({
+            transform: "s1.5,0,0"
+          }, 500, mina.bounce); // scale up on hover
+        }, function() {
+          circle.animate({
+            transform: "s1,0,0"
+          }, 500, mina.bounce); // scale down when not hover
+        });
+        setTimeout('drawATK()', 3000); // call drawATK again after 3000 ms
+      });
+    }
+  </script>
+
+  <!-- HTML -->
+
+
+</head>
+
+<body>
+<svg id="svgout"></svg>
+</body>
+
+</html>

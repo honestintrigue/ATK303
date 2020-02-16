@@ -5,6 +5,8 @@ overflow: hidden;
 
 
 nav ul {
+position:relative;
+z-index: 9;
 margin: 0;
 padding: 0;
 list-style: none;
@@ -28,6 +30,8 @@ color: black;
 }
 
 .sh2 {
+position:relative;
+z-index:8;
 border: 2px solid white;
 text-align: center;
 font-family: monospace;
@@ -37,7 +41,8 @@ color:white;
 }
 
 .img {
-    position: absolute;
+    z-index: 10;
+    position: relative;
     left: -100%;
     margin: 7em -244px;
     animation: slide 4s infinite;
@@ -50,11 +55,13 @@ color:white;
 }
 
 #slide3 {
-width: 1000px;
-height: 100px;
-position: absolute;
-    top: 0;
-    right: 0;
+position: relative;
+z-index: 5;
+right: 0px;
+top: 0px;
+text-align:right;
+width:100px;
+height:100px;
 }
 
 #slide3 img {

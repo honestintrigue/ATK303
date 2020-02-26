@@ -1,0 +1,44 @@
+#mainimg {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+h1{
+font-size:10vw;
+text-align: center;
+color:#c90815;
+font-family:legend;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin-bottom: 1em;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+  background-color:#2a2b2b;
+}
+
+nav a:hover {
+  background-color:#0d0d0d;
+}
+
+@font-face {
+font-family: 'legend';
+src: url('legend/legend.ttf');
+src: url('legend/legend.otf');
+}
+
+ @media all and (min-width: 30em){
+  nav { grid-template-columns: repeat(4,1fr) }
+}
+
+@media all and (min-width: 50em){
+	nav { width: 30%; grid-template-columns: 1fr; }
+  nav a { margin-right: 1em; }
+} */

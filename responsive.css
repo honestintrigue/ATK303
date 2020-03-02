@@ -29,9 +29,9 @@ nav a:hover {
 }
 
 @font-face {
-font-family: 'legend';
-src: url('legend/legend.ttf');
-src: url('legend/legend.otf');
+font-family: 'LEGEND';
+src: url('legend/LEGEND.ttf');
+src: url('legend/LEGEND.otf');
 }
 
  @media all and (min-width: 30em){

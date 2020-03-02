@@ -7,7 +7,7 @@ h1{
 font-size:10vw;
 text-align: center;
 color:#c90815;
-font-family:LEGEND;
+font-family:legend;
 }
 
 nav {
@@ -29,7 +29,7 @@ nav a:hover {
 }
 
 @font-face {
-font-family: 'LEGEND';
+font-family: 'legend';
 src: url('legend/LEGEND.ttf');
 src: url('legend/LEGEND.otf');
 }

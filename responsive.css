@@ -30,8 +30,7 @@ nav a:hover {
 
 @font-face {
 font-family: 'legend';
-src: url('legend/LEGEND.ttf');
-src: url('legend/LEGEND.otf');
+src: url("legend/LEGEND.woff");
 }
 
  @media all and (min-width: 30em){

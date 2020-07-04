@@ -1,0 +1,47 @@
+Body{
+background-color: black;
+font-family: 'Dancing Script', cursive;
+color:#DAA520	;
+font-size:30px;
+list-style: none;
+}
+
+.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+
+h2{
+color:#DAA520	;
+font-size: 25px;
+font-family: 'Dancing Script', cursive;
+list-style: none;
+}
+
+.menu{
+float:right;
+color:#DAA520	;
+font-size:15px;
+font-family: 'Dancing Script', cursive;
+text-decoration: none;
+list-style: none;
+}
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:none;
+  font-weight:bold;
+  background-color:black;
+  color:#DAA520	;
+  }
+
+  a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:none;
+  font-weight:bold;
+  background-color:black;
+  color:#DAA520	;
+  }

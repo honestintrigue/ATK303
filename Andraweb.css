@@ -1,7 +1,7 @@
 Body{
-background-color: black;
-font-family: 'Dancing Script', cursive;
-color:#DAA520	;
+background-color:black;
+font-family:sans-serif;
+color:white;
 font-size:30px;
 list-style: none;
 }
@@ -15,15 +15,229 @@ width: 50%;
 }
 
 h2{
-color:#DAA520	;
-font-size: 25px;
+color:white	;
+font-size: 70px;
 font-family: 'Dancing Script', cursive;
 list-style: none;
+padding:5px;
 }
+
+h3{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+text-decoration: underline;
+padding:5px;
+
+}
+
+h4{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+text-decoration: underline;
+padding:5px;
+}
+
+h5{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+text-decoration: underline;
+padding:5px;
+}
+
+h6{
+color:white;
+font-size: 70px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h7{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+text-decoration: underline;
+padding:5px;
+}
+
+h8{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h9{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h10{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+text-decoration: underline;
+}
+
+h11{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h12{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h13{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h14{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+text-decoration: underline;
+}
+
+h15{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h16{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h17{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h18{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+text-decoration: underline;
+}
+
+h19{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h20{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h21{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+}
+
+h22{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+text-decoration: underline;
+padding:5px;
+
+h23{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+
+h24{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+
+h25{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+
+h26{
+color:white;
+font-size: 70px;
+font-family: 'Dancing Script', cursive;
+text-decoration: underline;
+padding:5px;
+
+h27{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+
+h28{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+
+h29{
+color:white;
+font-size: 70px;
+font-family: 'Dancing Script', cursive;
+text-decoration: underline;
+padding:5px;
+
+h30{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+
+h31{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+
+h32{
+color:white;
+font-size: 50px;
+font-family: 'Dancing Script', cursive;
+padding:5px;
+
+
+
 
 .menu{
 float:right;
-color:#DAA520	;
+color:white;
 font-size:15px;
 font-family: 'Dancing Script', cursive;
 text-decoration: none;
@@ -35,7 +249,7 @@ a:link    {
   text-decoration:none;
   font-weight:bold;
   background-color:black;
-  color:#DAA520	;
+  color:white;
   }
 
   a:hover   {
@@ -43,5 +257,5 @@ a:link    {
   text-decoration:none;
   font-weight:bold;
   background-color:black;
-  color:#DAA520	;
+  color:grey	;
   }
